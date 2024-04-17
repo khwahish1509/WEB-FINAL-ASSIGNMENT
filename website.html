@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khwahish Vaid</title>
+    <link rel="stylesheet" href="./css/sakura.css">
+</head>
+<body >
+    <header id="head" >
+        <h3>Khwahish Vaid</h3>
+        <nav class="nav">
+            <ul>
+                <div>
+                    <li><a href="#home">Home</a></li>
+                    <div class="dot"></div>
+                </div>
+                <div>
+                    <li><a href="#about">About</a></li>
+                    <div class="dot"></div>
+
+                </div>
+                <div>
+                    <li><a href="#skills">Skills</a></li>
+                    <div class="dot"></div>
+
+                </div>
+                <div>
+                    <li><a href="#Education">Education</a></li>
+                    <div class="dot"></div>
+
+                </div>
+                <div>
+                    <li><a href="#contact">Contact</a></li>
+                    <div class="dot"></div>
+
+                </div>
+              
+
+            </ul>
+        </nav>
+    </header>
+    <main class="main ">
+        <section id="home" data-aos="fade-up"  data-aos-delay="150" data-aos-duration="1500">
+            <div class="home_container">
+                <h1>Hie! I am Khwahish Vaid</h1>
+                <h2>I am a full time student in Seneca</h2>
+                <button class="btn resume"><a href="./assets/A4 - 1.pdf" download>Resume</a> </button>
+                <button class="btn contact_btn"><a href="#contact">Contact Me</a></button>
+
+            </div>
+            
+        </section>
+        <section id="about" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1500">
+            <div class="about_container">
+                <h1>About Me</h1>
+                <div class="info">
+                    <div id="info_content fade-in-text">
+                        <p>I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy. 
+                          No part of this assessment has been copied manually or electronically from any other source 
+                          (including web sites) except for the information supplied by the WEB222 instructors and / or 
+                          made available in this assessment for my use. I also declare that no part of this assignment has 
+                          been distributed to other students</p>
+                        <p>
+                            My name is Khwahish Vaid and I was born in small town in India. After my high school education I moved to Canada for my higher studies at Seneca College.
+                        </p>
+                    </div>
+                    <div class="img_cont">
+                        <img src="https://cdn.pixabay.com/photo/2023/04/28/23/32/ai-generated-7957457_960_720.png" alt="picture">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills" >
+            <div class="skills_cont">
+                <h1 data-aos="fade-up" data-aos-delay="150" data-aos-duration="1500">Passionate About</h1>
+                <div class="skill_cont">
+                    
+                </div>
+            </div>
+        </section>
+        <section id="Education">
+         
+
+
+<div class="Education_cont">
+<h1 data-aos="fade-up" data-aos-delay="150" data-aos-duration="1500">Education</h1>
+<div class="edu_cont" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1500">
+        <div class="edu_name">
+        <h2>Seneca College </h2>
+        <p>(2023-2026)</p>
+    </div>
+    <div class="edu_desc">
+        <p>I commenced my studies at Seneca College in the fall of 2023. Since then, it has been an enriching journey filled with numerous learning opportunities that have contributed to my growth as a programmer. Moreover, interacting with individuals from diverse backgrounds has broadened my understanding of different cultures.</p>
+    </div>
+
+</div>
+<div class="edu_cont" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1500">
+    <div class="edu_name"> 
+
+        <h2>Delhi Public School</h2>
+        <h2>School </h2>
+
+        <p>(2010-2023)</p>
+    </div>
+    <div class="edu_desc">
+        <p>For a duration of 13 years, my time at this school was marked by a rollercoaster of emotions, characterized mainly by laughter, occasional boredom, and a myriad of other feelings. It was a journey abundant with memorable moments spent with friends, brimming with dreams and enthusiasm. Together, we constantly looked towards the future, often engaging in playful antics and mischief. In hindsight, I realize the importance of cherishing those moments more deeply.</p>
+    </div>
+
+</div>
+</div>
+        </section>
+        <section id="contact">
+            <div class="contact_cont" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1500">
+                <h1 style="margin: 2rem;">Have a Chat With ME</h1>
+                <div class="form_cont">
+                    <form id="form" action="https://httpbin.org/post" onsubmit='return checkValidForm()' method="post">
+                        <fieldset>
+                            <div>
+                                <label for="name">Name:</label>
+                                <input type="text" name="name" required placeholder="Enter Your Name">
+                            </div>
+                            <div>
+                                <label for="email">Email:</label>
+                                <input type="email" name="email" placeholder="Enter Your email">
+                            </div>
+                           
+                            <div class="spanDiv">
+                                <span>
+                                    <label for="street_No">Street:</label>
+                                    <input type="text" name="street_No" required placeholder="Enter Your Street">
+                                </span>
+                                <span>
+                                    <label for="City">City:</label>
+                                    <input type="text" name="City" required placeholder="Enter Your City">
+                                </span>
+
+                                
+                            </div>
+                            <div class="spanDiv">
+                                <span>
+                                    <label for="postal_Code">Postal Code:</label>
+                                    <input type="text" name="postal_Code" placeholder="Enter Your Postal Code">
+                                </span>
+                                <span>
+                                    <label for="province">Province: </label>
+                                    <input type="text" list="provinces" required autocomplete    placeholder="Enter your Province" name="province">
+                                    <datalist id="provinces">
+                                        <option value="Ontario">
+                                        <option value="Quebec">
+                                        <option value="Nova Scotia">
+                                        <option value="New Brunswick">
+                                        <option value="Manitoba">
+                                        <option value="British Columbia">
+                                        <option value="Prince Edward Island ">
+                                        <option value="Saskatchewan">
+                                        <option value="Alberta">
+                                        <option value="Newfoundland and Labrador">
+                                        <option value="Nunavut, Northwest Territories">
+                                        <option value="Yukon">
+                                      </datalist>
+                                </span>
+                            </div>
+                            <div>
+                            Your Concern: 
+                            <input type="radio" class="concern" name="concern" id="jobOffer" value="jobOffer">  Job Offer </input>
+                            <input type="radio" class="concern" name="concern" id="School" value="School">  School </input>
+                            <input type="radio" class="concern" name="concern" id="other" value="Other">  Other</input>
+
+                            </div>
+                            <div id="otherBox">
+                                <label for="OtherBusiness">Other: </label>
+                            <input type="text" name="OtherBusiness"  placeholder="Enter your concern">
+
+                            </div>
+                            <div id="hourlyRateGroup" style="display: none;">
+                              <label for="hourlyRate">Hourly Rate:</label>
+                              <input type="text" id="hourlyRate" name="hourlyRate">
+                          </div>
+                          
+                            <div class="textDiv">
+                                <label for="message">Message:</label>
+                                <textarea placeholder="Enter a message for me" name="message"></textarea>
+                            </div>
+                            <div class="btn_cont">
+                                <button class="btn" type="submit">Submit</button>
+                                <button class="btn" type="reset">Clear Form</button>
+                            </div>
+                            
+                        </fieldset>
+                        
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <script src="./js/app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
