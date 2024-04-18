@@ -24,6 +24,6 @@ function toggleContactSection() {
 
 function downloadResume() {
     // Replace the placeholder URL with the actual URL of your resume PDF file
-    const resumeUrl = './Abhishek V.pdf';
+    const resumeUrl = './assets/A4 - 1.pdf';
     window.open(resumeUrl, '_blank');
 }
